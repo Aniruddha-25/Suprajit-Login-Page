@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Style.css" />
+    <title>Suprajit Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login_page">
+        <div class="logo_div">
+          <img class="logo" src="./Data/SUPRAJIT.NS.png" alt="Logo" />
+          <img class="logo_name" src="./Data/SUPRAJIT.png" alt="Logo Name" />
+        </div>
+        <form id="loginForm">
+          <div class="login_id">
+            <div class="input_container">
+              <i class="bx bxs-user"></i>
+              <input
+                type="text"
+                name="user_id"
+                id="user_id"
+                placeholder="User ID"
+                required
+              />
+            </div>
+          </div>
+          <div class="password_entry">
+            <div class="input_container">
+              <i class="bx bxs-lock-alt"></i>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+    <script src="Script.js"></script>
+  </body>
+</html>
